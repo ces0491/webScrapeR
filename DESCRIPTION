@@ -1,0 +1,29 @@
+Package: webScrapeR
+Title: Utility Functions for Web Scraping
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Cesaire",
+           family = "Tobias",
+           role = c("aut", "cre"),
+           email = "cesairetobias@hotmail.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Generic functions to help with scraping data from the internet.
+Depends:
+    R (>= 4.0.0)
+Imports:
+    anytime,
+    assertR,
+    dplyr,
+    jsonlite,
+    glue,
+    rvest,
+    stringr,
+    tibble,
+    tidyr,
+    webdriver,
+    xml2
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
